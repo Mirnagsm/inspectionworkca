@@ -1,0 +1,6 @@
+User-agent: *
+Allow: /
+Disallow: /leads_backup.csv
+Disallow: /send_contact.php
+
+Sitemap: https://inworkca.com/sitemap.xml
