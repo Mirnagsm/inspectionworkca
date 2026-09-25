@@ -633,6 +633,43 @@ h3 {
     color: #25D366; /* Verde de éxito / cumplimiento */
 }
 
+/* Contenedor Contiguo de Logos Acreditación SENCAMER + IW (Normativa Legal SENCAMER) */
+.accred-logos-container {
+    display: inline-flex;
+    align-items: center;
+    background: #FFFFFF;
+    padding: 6px 14px;
+    border-radius: 8px;
+    gap: 14px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+    flex-shrink: 0;
+}
+
+.accred-logos-divider {
+    width: 1px;
+    height: 32px;
+    background: rgba(0, 0, 0, 0.15);
+}
+
+.accred-logo-iw,
+.accred-logo-sencamer {
+    height: 42px;
+    width: auto;
+    max-height: 42px;
+    object-fit: contain;
+    display: block;
+    filter: none !important;
+    box-shadow: none !important;
+}
+
+@media (max-width: 600px) {
+    .accred-badge-header {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 16px;
+    }
+}
+
 .accred-details-list {
     display: grid;
     grid-template-columns: 1fr 1fr;
