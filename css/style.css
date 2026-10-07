@@ -2584,3 +2584,38 @@ h3 {
 .dropdown-brochure-content a:hover { background-color: rgba(255, 255, 255, 0.1); color: var(--color-primary); }
 .dropdown-brochure:hover .dropdown-brochure-content, .dropdown-brochure:focus-within .dropdown-brochure-content { display: block; }
 @media (max-width: 768px) { .dropdown-brochure-content { position: static; transform: none; box-shadow: none; margin-top: 5px; background-color: rgba(0,0,0,0.3); border: none; } }
+
+/* Horizontal Cards for Standards */
+@media (min-width: 1024px) {
+    .standards-grid {
+        grid-template-columns: repeat(2, 1fr) !important;
+        gap: 30px !important;
+    }
+    .standard-cat {
+        display: flex !important;
+        flex-direction: row !important;
+        align-items: center !important;
+        text-align: left !important;
+        padding: 25px 30px !important;
+        height: auto !important;
+    }
+    .standard-cat h4 {
+        border-bottom: none !important;
+        border-right: 2px solid var(--color-primary) !important;
+        margin-bottom: 0 !important;
+        padding-bottom: 0 !important;
+        padding-right: 30px !important;
+        margin-right: 30px !important;
+        width: 45% !important;
+        font-size: 1.25rem !important;
+        text-align: right !important;
+    }
+    .standard-cat .standard-list {
+        width: 55% !important;
+        align-items: flex-start !important;
+    }
+    .standard-cat .standard-list li {
+        justify-content: flex-start !important;
+        font-size: 1.05rem !important;
+    }
+}
