@@ -67,7 +67,7 @@ if ($fp) {
 }
 
 // 4. Configurar el Correo Electrónico
-$destinatarios = 'iwcaventas@gmail.com, inspectionworkca@gmail.com';
+$destinatarios = 'ventas@inworkca.com, inspectionworkca@gmail.com';
 $asunto = "Nueva Cotización Web - Empresa: " . $empresa;
 
 // Cabeceras para correo HTML

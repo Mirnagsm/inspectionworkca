@@ -368,7 +368,7 @@ function initWhatsAppTracking() {
             const phoneNumber = '584129268997'; // Ventas corporativas por defecto
             
             // Crear mensaje personalizado
-            const msg = `Hola, vengo del sitio web inworkca.com y me gustaría solicitar información técnica y cotización sobre el servicio de: *${serviceName}*.`;
+            const msg = `Gracias por comunicarse con Inspection Work. Para atenderle mejor, por favor indíquenos su nombre, empresa y el servicio que requiere. Le responderemos a la brevedad posible.`;
             const encodedMsg = encodeURIComponent(msg);
             
             trackConversion('whatsapp_servicio_click', { servicio: serviceName });
